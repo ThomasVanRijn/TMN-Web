@@ -146,14 +146,6 @@ footer .content {
   height: 200px;
   /* background-color: red; */
 }
-footer .contact {
-  width: 300px;
-  /* background-color: red; */
-  padding: 10px;
-
-  display: flex;
-  align-items: center;
-}
 footer .contact_gegevens {
   width: 300px;
   /* background-color: blue; */
@@ -161,6 +153,13 @@ footer .contact_gegevens {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
+}
+footer .contact {
+  width: 300px;
+  /* background-color: red; */
+  padding: 10px;
+  display: flex;
+  align-items: center;
 }
 footer .contact img {
   width: 50px;
@@ -250,7 +249,8 @@ footer .over_ons p {
   main .pakket {
     width: 285px;
     padding: 15px;
-    margin: 10px;
+    display: block;
+    margin: auto;
   }
   main .pakket img {
     width: 150px;
@@ -277,6 +277,11 @@ footer .over_ons p {
     justify-content: center;
     align-items: center;
   }
+  footer .content {
+    width: 750px;
+    height: 200px;
+    /* background-color: red; */
+  }
   footer .contact_gegevens {
     width: 300px;
     /* background-color: blue; */
@@ -284,11 +289,28 @@ footer .over_ons p {
     position: relative;
     top: 0;
     transform: translateY(0);
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  footer .over_ons {
+    width: 300px;
+    float: none;
+    margin: auto;
+    transform: translateY(-50px);
+  }
+  footer .over_ons h3 {
+    color: white;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  footer .over_ons p {
+    color: grey;
+    text-align: justify;
   }
   footer .contact {
     width: 300px;
     /* background-color: red; */
-    margin: auto;
+    margin: 0;
     display: flex;
     align-items: center;
   }
