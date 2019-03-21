@@ -53,16 +53,20 @@ header .content button:hover {
 }
 
 nav {
-
+  background-color: #2d2d2d;
+}
+nav img.menu {
+  width: 50px;
+  background-color: #2d2d2d;
+  padding: 15px 20px;
+  display: block;
 }
 nav #content{
-  background-color: rgba(45,45, 45, 0.80);
+  background-color: rgba(45,45, 45, 1);
   z-index: 1;
-  position: fixed;
-  top: -50px;
   width: 100%;
-  transition: top 0.3s;
   text-align: center;
+  display: block;
 }
 nav #content a {
   color: white;
@@ -72,11 +76,16 @@ nav #content a {
   margin: 0;
 }
 nav #content a:hover {
-  background-color: white;
+  background-color: #ededed;
   color: #2d2d2d;
+
 }
+
 main{
   background-image: url('../img/background_main.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 70vh;
   display: flex;
   justify-content: center;
@@ -89,8 +98,10 @@ main .personen{
 }
 main .personen img{
   height: 200px;
-  margin: 15px;
-  margin-left: 50px;
+  margin-bottom: 20px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 main .personen h1{
   text-align: center;
@@ -99,6 +110,7 @@ main .personen h1{
 main .personen p{
   text-align: justify;
 }
+
 footer {
   width: 100%;
   height: 300px;
@@ -156,4 +168,116 @@ footer .over_ons h3 {
 footer .over_ons p {
   color: grey;
   /* text-align: justify; */
+}
+
+/* mobile version */
+@media screen and (max-width: 420px) {
+  nav {
+    background-color: #2d2d2d;
+  }
+  nav img.menu {
+    width: 35px;
+    background-color: #2d2d2d;
+    padding: 13px 20px;
+    display: block;
+  }
+  nav #content{
+    background-color: rgba(45,45, 45, 1);
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+
+    display: none;
+  }
+  nav #content a {
+    display: block;
+    width: 100%;
+    padding: 5px 0;
+  }
+  nav #content a:hover {
+    background-color: #ededed;
+    color: #2d2d2d;
+
+  }
+
+  main{
+    background-image: url('../img/background_main.png');
+    height: auto;
+    display: block;
+    justify-content: none;
+    align-items: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  main .personen{
+    width: 300px;
+    margin-right: 50px;
+    margin: auto;
+    margin-top: 35px;
+  }
+  main .personen img{
+    height: 200px;
+    margin-bottom: 20px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  main .personen h1{
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  main .personen p{
+    text-align: justify;
+  }
+
+  footer {
+    width: 100%;
+    height: 500px;
+    background-color: #2d2d2d;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .content {
+    width: 750px;
+    height: 200px;
+    /* background-color: red; */
+  }
+  footer .contact_gegevens {
+    width: 300px;
+    /* background-color: blue; */
+    margin-left: 0;
+    position: relative;
+    top: 0;
+    transform: translateY(0);
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  footer .over_ons {
+    width: 300px;
+    float: none;
+    margin: auto;
+    transform: translateY(-50px);
+  }
+  footer .over_ons h3 {
+    color: white;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  footer .over_ons p {
+    color: grey;
+    text-align: justify;
+  }
+  footer .contact {
+    width: 300px;
+    /* background-color: red; */
+    margin: 0;
+    display: flex;
+    align-items: center;
+  }
+}
+/* ipad version */
+@media screen and (min-width: 421px) and (max-width: 900px) {
+
 }
