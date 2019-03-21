@@ -315,7 +315,7 @@ footer .over_ons p {
     align-items: center;
   }
 }
-
+/* ipad version */
 @media screen and (min-width: 421px) and (max-width: 900px) {
   main .pakket {
     width: 285px;
