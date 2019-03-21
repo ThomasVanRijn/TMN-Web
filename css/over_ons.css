@@ -54,6 +54,9 @@ header .content button:hover {
 
 nav {
   background-color: #2d2d2d;
+  position: sticky;
+  top: 0;
+  z-index: 0;
 }
 nav img.menu {
   width: 50px;
