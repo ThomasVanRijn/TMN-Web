@@ -15,7 +15,7 @@
         <h1>Contact</h1>
       </div>
     </header>
-    
+
     <nav>
       <a href="javascript:void(0);" class="icon" onclick="navigation()">
         <img class="menu" src="img/menu.png" alt="">
@@ -29,13 +29,17 @@
 
     <main>
       <div class="formulier">
-        <form method="post" action="mailto:">
-          <input type="text" name="naam" placeholder="voornaam">
-          <input type="text" name="naam" placeholder="achternaam">
-          <input type="text" name="email" placeholder="email">
-          <input type="text" name="nummer" placeholder="telefoonnummer">
-        </form>
-
+        <div class="row">
+          <input style="width: 50%;" type="text" name="naam" placeholder="Naam*" >
+          <input style="width: 50%;" type="text" name="telefoonnummer" placeholder="Telefoonnummer">
+        </div>
+        <div class="collumn">
+          <input style="width: 100%;" type="text" name="email" placeholder="Email*">
+          <textarea style="width: 100%; height: 100px;" name="bericht" placeholder="Bericht*"></textarea>
+        </div>
+        <div class="row">
+          <input type="submit" name="submit" value="verzenden">
+        </div>
       </div>
     </main>
     <footer>
