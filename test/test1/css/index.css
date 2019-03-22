@@ -1,5 +1,30 @@
-nav .menu {
-  width: 100px;
-  height: 100px;
-  background-color: lightblue;
+* {
+  margin: 0;
+  padding: 0;
+  font-size: arial;
+}
+
+body {
+  background-color: #2d2d2d;
+}
+
+main {
+  width: 750px;
+  background-color: #123456;
+  margin: auto;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.collumn {
+    display: flex;
+    flex-wrap: wrap;
+}
+input, textarea {
+  height: 30px;
+  margin: 10px;
+}
+textarea {
+  min-width: 97.1%;
 }

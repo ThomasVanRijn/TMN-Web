@@ -98,7 +98,9 @@ main{
 main .personen{
   width: 300px;
   margin-right: 50px;
-  margin: auto;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 main .personen img{
   height: 200px;
