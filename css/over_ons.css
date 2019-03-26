@@ -1,0 +1,286 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+  text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+p, a {
+  font-family: 'Exo', sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 25vh;
+  background-image: url('../img/background_header.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header .content {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+header .content img {
+  width: 75px;
+  display: block;
+  margin: auto;
+}
+header .content h1 {
+  color: white;
+  text-align: center;
+  font-size: 3.3rem;
+  cursor: default;
+  text-shadow: 0 0 10px black;
+}
+header .content button {
+  color: white;
+  background-color: #20cfff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  margin: auto;
+  display: block;
+  transition: 0.6s;
+}
+header .content button:hover {
+  transform: scale(0.95);
+  cursor: pointer;
+}
+
+nav {
+  background-color: #2d2d2d;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+nav img.menu {
+  width: 50px;
+  background-color: #2d2d2d;
+  padding: 15px 20px;
+  display: none;
+}
+nav #content{
+  background-color: rgba(45,45, 45, 1);
+  z-index: 1;
+  width: 100%;
+  text-align: center;
+  display: block;
+}
+nav #content a {
+  color: white;
+  font-size: 2rem;
+  padding: 4px 20px;
+  line-height: 50px;
+  margin: 0;
+}
+nav #content a:hover {
+  background-color: #ededed;
+  color: #2d2d2d;
+
+}
+
+main{
+  background-image: url('../img/background_main.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .personen{
+  width: 300px;
+  margin-right: 50px;
+  margin: auto;
+  position: relative;
+}
+main .personen img{
+  height: 200px;
+  margin-bottom: 20px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+main .personen h1{
+  text-align: center;
+  margin-bottom: 10px;
+}
+main .personen p{
+  text-align: justify;
+}
+
+footer {
+  width: 100%;
+  height: 300px;
+  background-color: #2d2d2d;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .content {
+  width: 750px;
+  height: 200px;
+  /* background-color: red; */
+}
+footer .contact {
+  width: 300px;
+  /* background-color: red; */
+  padding: 10px;
+
+  display: flex;
+  align-items: center;
+}
+footer .contact_gegevens {
+  width: 300px;
+  /* background-color: blue; */
+  margin-left: 25px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+footer .contact img {
+  width: 50px;
+  margin: 0 10px;
+}
+footer .contact a {
+  color: #20cfff;
+  font-size: 14pt;
+}
+footer .contact a:hover {
+  color: white;
+}
+footer .contact p {
+  color: white;
+  display: inline-block;
+  font-size: 14pt;
+}
+footer .over_ons {
+  width: 300px;
+  float: right
+}
+footer .over_ons h3 {
+  color: white;
+  margin-bottom: 10px;
+}
+footer .over_ons p {
+  color: grey;
+  /* text-align: justify; */
+}
+
+/* mobile version */
+@media screen and (max-width: 420px) {
+  nav {
+    background-color: #2d2d2d;
+  }
+  nav img.menu {
+    width: 35px;
+    background-color: #2d2d2d;
+    padding: 13px 20px;
+    display: block;
+  }
+  nav #content{
+    background-color: rgba(45,45, 45, 1);
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+
+    display: none;
+  }
+  nav #content a {
+    display: block;
+    width: 100%;
+    padding: 5px 0;
+  }
+  nav #content a:hover {
+    background-color: #ededed;
+    color: #2d2d2d;
+
+  }
+
+  main{
+    background-image: url('../img/background_main.png');
+    height: auto;
+    display: block;
+    justify-content: none;
+    align-items: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  main .personen{
+    width: 300px;
+    mar
+  }
+  main .personen img{
+    height: 200px;
+    margin-bottom: 20px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  main .personen h1{
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  main .personen p{
+    text-align: justify;
+  }
+
+  footer {
+    width: 100%;
+    height: 500px;
+    background-color: #2d2d2d;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .content {
+    width: 750px;
+    height: 200px;
+    /* background-color: red; */
+  }
+  footer .contact_gegevens {
+    width: 300px;
+    /* background-color: blue; */
+    margin-left: 0;
+    position: relative;
+    top: 0;
+    transform: translateY(0);
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  footer .over_ons {
+    width: 300px;
+    float: none;
+    margin: auto;
+    transform: translateY(-50px);
+  }
+  footer .over_ons h3 {
+    color: white;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  footer .over_ons p {
+    color: grey;
+    text-align: justify;
+  }
+  footer .contact {
+    width: 300px;
+    /* background-color: red; */
+    margin: 0;
+    display: flex;
+    align-items: center;
+  }
+}
+/* ipad version */
+@media screen and (min-width: 421px) and (max-width: 900px) {
+
+}
