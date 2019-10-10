@@ -2,17 +2,26 @@
     margin: 0;
     padding: 0;
 }
-
+nav{
+    height: 10vh;
+}
 header {
-    height: 40vh;
-    background-image: url("../img/over_onsHead.png");
+    height: 20vh;
+    background-image: url("../img/over_onsHead.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     width: 100%;
+    filter:opacity(90%);
+}
+header h1{
+    color: white;
+    font-family: "Arial";
+    font-size: 3vw;
+    text-shadow: 20px 20px 20px black;
 }
 main{
-    height: 53vh;
+    height: 60vh;
     background-image: url("../img/background_main.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -20,4 +29,14 @@ main{
     width: 100%;
     margin: 0;
     padding: 0;
+}
+footer{
+    background-color: #343a40;
+    height: 10vh;
+}
+footer p{
+    color: white;
+}
+footer .col-sm{
+
 }
