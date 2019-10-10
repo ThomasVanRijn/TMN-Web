@@ -1,0 +1,15 @@
+.navbar {
+    height: 10vh;
+}
+.navbar a {
+    font-size: 1.5rem;
+}
+
+footer {
+    background: #333a40;
+}
+footer .row {
+    background: #333a40;
+    height: 10vh;
+    box-shadow: 0px 0px 0px 0px black !important;
+}
