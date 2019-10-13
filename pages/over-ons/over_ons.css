@@ -7,7 +7,7 @@ nav{
 }
 header {
     height: 20vh;
-    background-image: url("../img/over_onsHead.jpg");
+    background-image: url("../../img/over_onsHead.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -22,7 +22,7 @@ header h1{
 }
 main{
     height: 60vh;
-    background-image: url("../img/background_main.png");
+    background-image: url("../../img/background_main.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

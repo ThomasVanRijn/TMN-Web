@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php require("global_components/bootstrap.html"); ?>
-    <link rel="stylesheet" href="css/default_layout.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="global_components/default_layout.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
 
