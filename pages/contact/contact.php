@@ -30,10 +30,16 @@
     </ul>
 </nav>
 
+<header>
+<h1>Laten we contact leggen?</h1>
+</header>
+<main>
 <div class="container">
     <div class="row">
         <div class="col text-center">
-            <h1>Wilt u nou een website? stuur dat een mail!</h1>
+            <h1>Contacteer ons!</h1>
+            <p>Bel ons op het volgende nummer: 06-42002170 <br>
+            of stuur ons een mail via het onderstaande formulier</p>
         </div>
     </div>
 
@@ -55,5 +61,6 @@
         </div>
     </div>
 </div>
+</main>
 </body>
 </html>
