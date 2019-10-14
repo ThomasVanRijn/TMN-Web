@@ -7,7 +7,7 @@ nav{
 }
 header {
     height: 20vh;
-    background-image: url("../../img/over_onsHead.jpg");
+    background-image: url("../../img/header.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -18,17 +18,56 @@ header h1{
     color: white;
     font-family: "Arial";
     font-size: 3vw;
-    text-shadow: 20px 20px 20px black;
 }
 main{
     height: 60vh;
-    background-image: url("../../img/background_main.png");
     background-position: center;
+    background-color: #e5e5e5;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     margin: 0;
     padding: 0;
+}
+main h3{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-decoration: underline;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 40pt;
+    height: 5vh;
+}
+main .empty{
+    height: 5vh;
+    background-color: white;
+    width: 100%;
+}
+main p{
+    font-family: Arial;
+    font-size: 20pt;
+    height: 40vh;
+}
+main .btn{
+    font-family: Arial;
+    font-weight: bold;
+    color: white;
+    background-color: #2e5442;
+    height: 72px;
+    width: 322px;
+    font-size: 25pt;
+    display: flex;
+    margin: auto;
+    padding-left: 40px;
+    margin-top: 50px;
+}
+main .btn a:hover{
+    text-decoration: none;
+    color: white;
+}
+main .btn a{
+    color: white;
 }
 footer{
     background-color: #343a40;

@@ -1,0 +1,31 @@
+header{
+    height: 30vh;
+    background-image: url("../../img/header.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header h1{
+    font-family: Arial;
+    font-weight: bold;
+    color: white;
+    font-size: 50pt;
+    text-align: center;
+}
+main h1{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 40pt;
+    text-decoration: underline;
+}
+main{
+    background-color: #e5e5e5;
+    height: 40vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+main p{
+    font-size: 15pt;
+}
+footer{
+    height: 10vh;
+}
