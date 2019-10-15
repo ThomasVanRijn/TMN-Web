@@ -1,5 +1,5 @@
 header {
-    height: 40vh;
+    height: 475px;
     background-image: url("../img/header.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -13,7 +13,6 @@ header h1{
 }
 header p{
     font-family: Arial;
-    /*font-weight: bold;*/
     color: white;
     font-size: 25pt ;
 }
@@ -22,13 +21,12 @@ header .btn{
     font-weight: bold;
     color: white;
     background-color: #2e5442;
-    height: 72px;
-    width: 322px;
+    /*height: 72px;*/
+    /*width: 322px;*/
     font-size: 25pt;
     display: flex;
-    margin: auto;
-    padding-left: 40px;
-    margin-top: 50px;
+    margin: 50px auto;
+    padding: 10px;
 }
 header .btn a:hover{
     text-decoration: none;

@@ -15,10 +15,9 @@
 <!--navigation bar-->
 <?php require("global_components/navbar.html"); ?>
 
-
 <header>
     <div class="container">
-        <div class="row">
+        <div class="row align-items-center">
             <div class="col-sm text-center">
                 <h1>Website laten maken</h1>
                 <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aperiam dicta, dolore eligendi eveniet expedita explicabo facere fuga fugiat hic id illo illum ipsam nihil odio possimus tenetur vero voluptate! </p>
