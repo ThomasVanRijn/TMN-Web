@@ -1,13 +1,6 @@
-.navbar {
-     height: 10vh;
- }
-.navbar a {
-    font-size: 1.5rem;
-}
-
 header {
     height: 40vh;
-    background-image: url("img/header.png");
+    background-image: url("../img/header.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -98,36 +91,6 @@ main .btn a{
     margin-right: 40px;
     margin-top: 40px;
 }
-.image1 {background-image: url("img/web_development.png");}
-.image2 {background-image: url("img/web_design.jpg");}
-.image3 {background-image: url("img/logo_design.jpg");}
-
-/*.row {*/
-/*    height: 90vh;*/
-/*    box-shadow: 0px 0px 25px -10px black !important;*/
-/*    background-image: url("img/background_main.png");*/
-/*    background-repeat: no-repeat;*/
-/*    background-position: center;*/
-/*    background-size: cover;*/
-/*}*/
-
-
-/*.image1, .image2, .image3 {*/
-/*    height: 90vh;*/
-/*    background-repeat: no-repeat;*/
-/*    background-position: center;*/
-/*    background-size: cover;*/
-/*    padding: 0 !important;*/
-/*}*/
-/*.image1 {background-image: url("img/web_development.png");}*/
-/*.image2 {background-image: url("img/web_design.jpg");}*/
-/*.image3 {background-image: url("img/logo_design.jpg");}*/
-
-/*.text {*/
-/*    padding: 100px !important;*/
-/*}*/
-/*.text h2 {*/
-/*    font-size: 2vw;*/
-/*}*/
-/*.text p {*/
-/*    font-size: 1vw;*/
+.image1 {background-image: url("../img/web_development.png");}
+.image2 {background-image: url("../img/web_design.jpg");}
+.image3 {background-image: url("../img/logo_design.jpg");}

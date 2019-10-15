@@ -1,20 +1,19 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>TMN-Web</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!--    Bootstrap-->
     <?php require("global_components/bootstrap.html"); ?>
 
-    <link rel="stylesheet" href="contact.css">
-    <link rel="stylesheet" href="../../global_components/default_layout.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="global_components/default_layout.css">
 </head>
 <body>
 
 <!--Navigation Bar-->
-<?php require("global_components/navbar/navbar.html"); ?>
+<?php require("global_components/navbar.html"); ?>
 
 <header>
 <h1>Laten we contact leggen?</h1>
@@ -35,7 +34,7 @@
 
         <div class="row">
             <div class="col">
-                <form action="../../sendmail.php" method="get">
+                <form action="sendmail.php" method="get">
                     <div class="form-group">
                         <input class="form-control" type="text" name="naam" placeholder="Voer uw naam in">
                         <br>

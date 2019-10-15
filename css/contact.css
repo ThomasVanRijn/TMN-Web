@@ -1,6 +1,6 @@
 header{
     height: 30vh;
-    background-image: url("../../img/header.png");
+    background-image: url("../img/header.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -25,7 +25,4 @@ main{
 }
 main p{
     font-size: 15pt;
-}
-footer{
-    height: 10vh;
 }

@@ -8,12 +8,12 @@
 <!--    bootstrap-->
     <?php require("global_components/bootstrap.html"); ?>
     <link rel="stylesheet" href="global_components/default_layout.css">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
 
 <!--navigation bar-->
-<?php require("global_components/navbar/navbar.html"); ?>
+<?php require("global_components/navbar.html"); ?>
 
 
 <header>
@@ -22,7 +22,7 @@
             <div class="col-sm text-center">
                 <h1>Website laten maken</h1>
                 <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aperiam dicta, dolore eligendi eveniet expedita explicabo facere fuga fugiat hic id illo illum ipsam nihil odio possimus tenetur vero voluptate! </p>
-                <button type="button" class="btn"><a href="pages/over-ons/over-ons.php">Meer Informatie</a> </button>
+                <button type="button" class="btn"><a href="over-ons.php">Meer Informatie</a> </button>
             </div>
         </div>
     </div>
@@ -45,7 +45,7 @@
                     kennisbank zodat we deze functies kunnen gebruiken bij elk nieuw project. Alles wat wij bouwen is
                     schaalbaar, ten alle tijden uit te breiden, aan te passen, te integreren en te optimaliseren.
                 </p>
-                <button type="button" class="btn"><a href="pages/over-ons/over-ons.php">Meer Informatie</a> </button>
+                <button type="button" class="btn"><a href="over-ons.php">Meer Informatie</a> </button>
             </div>
         </div>
         <div class="row">
@@ -57,7 +57,7 @@
                     ontwerp voor je website, webshop of webapplicatie. Wij verstaan dit onder het simpelweg ontwerpen van
                     een webspecifiek ontwerp.
                 </p>
-                <button type="button" class="btn"><a href="pages/over-ons/over-ons.php">Meer Informatie</a> </button>
+                <button type="button" class="btn"><a href="over-ons.php">Meer Informatie</a> </button>
             </div>
             <div class="col-7 image2"></div>
         </div>
@@ -70,7 +70,7 @@
                     belangrijk onderdeel van jouw visuele identiteit. Ga bijvoorbeeld maar eens na hoe vaak een logo in
                     beeld is op een website, bij de meeste websites staat het logo continu links bovenin.
                 </p>
-                <button type="button" class="btn"><a href="pages/over-ons/over-ons.php">Meer Informatie</a> </button>
+                <button type="button" class="btn"><a href="over-ons.php">Meer Informatie</a> </button>
             </div>
         </div>
     </div>

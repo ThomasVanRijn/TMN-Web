@@ -1,13 +1,6 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-nav{
-    height: 10vh;
-}
 header {
     height: 20vh;
-    background-image: url("../../img/header.png");
+    background-image: url("../img/header.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -68,14 +61,4 @@ main .btn a:hover{
 }
 main .btn a{
     color: white;
-}
-footer{
-    background-color: #343a40;
-    height: 10vh;
-}
-footer p{
-    color: white;
-}
-footer .col-sm{
-
 }

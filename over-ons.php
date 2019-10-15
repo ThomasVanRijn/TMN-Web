@@ -5,15 +5,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!--    bootstrap-->
+<!--bootstrap-->
     <?php require("global_components/bootstrap.html"); ?>
 
-    <link rel="stylesheet" href="over-ons.css">
+    <link rel="stylesheet" href="css/over-ons.css">
 </head>
 <body>
 
 <!--navigation bar-->
-<?php require("../../global_components/navbar/navbar.html"); ?>
+<?php require("global_components/navbar.html"); ?>
 
 <header>
     <div class="container">
@@ -35,7 +35,7 @@
                      als de basis niet goed staat, is er geen fundament om op te bouwen.
                     Een web applicatie, website of webshop moet goed opgebouwd zijn om ook doorontwikkeld te worden.  Projecten die wij opleveren zijn
                     maatwerk, voor de lange termijn geschikt en beschikbaar voor alle devices.
-                    <button type="button" class="btn"><a href="../../pages/contact/contact.php">Contacteer ons</a> </button>
+                    <button type="button" class="btn"><a href="contact.php">Contacteer ons</a> </button>
                 </p>
 
             </div>
