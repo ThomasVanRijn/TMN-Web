@@ -1,94 +1,35 @@
 header {
-    height: 475px;
     background-image: url("../img/header.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
-header h1{
-    font-family: Arial;
+header h1 {
+    color: white;
+    font: 28pt Arial;
     font-weight: bold;
+}
+header p {
     color: white;
-    font-size: 50pt;
-    margin-top: 50px;
-}
-header p{
-    font-family: Arial;
-    color: white;
-    font-size: 25pt ;
-}
-header .btn{
-    font-family: Arial;
-    font-weight: bold;
-    color: white;
-    background-color: #2e5442;
-    /*height: 72px;*/
-    /*width: 322px;*/
-    font-size: 25pt;
-    display: flex;
-    margin: 50px auto;
-    padding: 10px;
-}
-header .btn a:hover{
-    text-decoration: none;
-    color: white;
-}
-header .btn a{
-    color: white;
-}
-main .row{
-    background-color: #e5e5e5;
-    margin-bottom: 100px;
-    margin-top: 20px;
-}
-main h1{
-    color: black;
-    text-decoration: underline;
-    font-family: Arial;
-    font-weight: bold;
-    margin-top: 20px;
-}
-main p {
-    font-size: 20pt;
-}
-main h2{
-    text-align: center;
-    color: black;
-    font-family: Arial;
-    font-weight: bold;
-    font-size: 40pt;
-}
-main .btn{
-    font-family: Arial;
-    font-weight: bold;
-    color: white;
-    background-color: #2e5442;
-    height: 72px;
-    width: 322px;
-    font-size: 25pt;
-    display: flex;
-    margin: auto;
-    padding-left: 40px;
-    margin-top: 50px;
-}
-main .btn a:hover{
-    text-decoration: none;
-    color: white;
-}
-main .btn a{
-    color: white;
+    font: 22pt Arial;
 }
 
-.image1, .image2, .image3 {
-    height: 699px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding: 0 !important;
-    margin-bottom: 100px;
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-top: 40px;
+main .row {
+    margin: 33px;
 }
-.image1 {background-image: url("../img/web_development.png");}
-.image2 {background-image: url("../img/web_design.jpg");}
-.image3 {background-image: url("../img/logo_design.jpg");}
+main h2 {
+    font: 32pt Arial;
+    font-weight: bold;
+    margin: 33px;
+}
+main .image {
+}
+main .text {
+    padding: 50px;
+}
+main .text h3 {
+    font: 24pt Arial;
+    font-weight: bold;
+}
+main .text p {
+    font: 16pt Arial;
+}

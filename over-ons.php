@@ -7,7 +7,6 @@
 
 <!--bootstrap-->
     <?php require("global_components/bootstrap.html"); ?>
-
     <link rel="stylesheet" href="css/over-ons.css">
 </head>
 <body>
@@ -17,31 +16,42 @@
 
 <header>
     <div class="container">
-        <div class="row">
-            <div class="col-sm text-center">
-                <h1>Wat wil je over ons weten</h1>
+        <div class="row align-items-center" style="height: 250px;">
+            <div class="col text-center">
+                <h1>[TITLE]</h1>
+                <p>[TEXT]</p>
             </div>
         </div>
     </div>
 </header>
-<main>
-    <div class="empty"></div>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm">
-                <h3>Over ons</h3>
-                <p>Wij zijn een allround bedrijf die altijd klaar staat voor de klant. Opgericht met het oogpunt om projecten op te leveren die meerwaarde bieden voor de klant.
-                    Wil jij als organisatie opvallen en jouw klanten een succesvolle ervaring schenken? Dan ben je toe aan maatwerk. Het begint allemaal met de basis,
-                     als de basis niet goed staat, is er geen fundament om op te bouwen.
-                    Een web applicatie, website of webshop moet goed opgebouwd zijn om ook doorontwikkeld te worden.  Projecten die wij opleveren zijn
-                    maatwerk, voor de lange termijn geschikt en beschikbaar voor alle devices.
-                    <button type="button" class="btn"><a href="contact.php">Contacteer ons</a> </button>
-                </p>
 
+<main>
+    <div class="container" style="max-width: 750px">
+        <div class="row">
+            <div class="col text-center">
+                <h2>Over ons</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-center">
+                <p>
+                    Zijn een allround bedrijf die altijd klaar staat voor de kant. Opgericht met het oogpunt om
+                    projecten op te leveren die meerwaarde bieden voor de klant. Wil je als organisatie opvallen en jouw
+                    klanten een succesvolle ervaring schenken? Dan ben je toe aan maatwerk. Het begint allemaal met de
+                    basis, als de basis niet goed staat, is er geen fundament om op te bouwen. Een web applicatie,
+                    website of webshop moet goed opgebouwd zijn om ook doorontwikkeld te worden. Projecten die wij
+                    opleveren zijn schaalbaar, maatwerk en voor de lange termijn geschikt.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-center">
+                <a href="contact.php">
+                    <button class="btn btn-dark">Contacteer ons</button>
+                </a>
             </div>
         </div>
     </div>
-    <div class="empty"></div>
 </main>
 
 <!--footer-->

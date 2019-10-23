@@ -16,22 +16,32 @@
 <?php require("global_components/navbar.html"); ?>
 
 <header>
-<h1>Laten we contact leggen?</h1>
+    <div class="container">
+        <div class="row align-items-center" style="height: 250px;">
+            <div class="col text-center">
+                <h1>[TITLE]</h1>
+                <p>[TEXT]</p>
+            </div>
+        </div>
+    </div>
 </header>
 
 <main>
     <div class="container">
         <div class="row">
             <div class="col text-center">
-                <h1>Contacteer ons!</h1>
+                <h2>Contacteer ons!</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-center">
                 <p>
-                    Bel ons op het volgende nummer: 06-42002170
-                    <br>
-                    of stuur ons een mail via het onderstaande formulier
+                    bel ons op het volgende nummer: 06-42002170 <br>
+                    of stuur een mail via het onderstaande formulier.
                 </p>
             </div>
         </div>
-
+<!--        formulier-->
         <div class="row">
             <div class="col">
                 <form action="sendmail.php" method="get">

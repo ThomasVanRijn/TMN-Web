@@ -1,28 +1,28 @@
-header{
-    height: 30vh;
+header {
     background-image: url("../img/header.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
-header h1{
-    font-family: Arial;
-    font-weight: bold;
+header h1 {
     color: white;
-    font-size: 50pt;
-    text-align: center;
-}
-main h1{
-    font-family: Arial;
+    font: 28pt Arial;
     font-weight: bold;
-    font-size: 40pt;
-    text-decoration: underline;
 }
-main{
-    background-color: #e5e5e5;
-    height: 40vh;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
+header p {
+    color: white;
+    font: 22pt Arial;
 }
-main p{
-    font-size: 15pt;
+
+main {
+    background: lightgrey;
+    margin: 25px 0px;
+    padding: 25px;
 }
+main h2 {
+    font: 28pt Arial;
+    font-weight: bold;
+}
+main p {
+    font: 18pt Arial;
+}
+
