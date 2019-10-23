@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!--bootstrap-->
+    <!--bootstrap-->
     <?php require("global_components/bootstrap.html"); ?>
     <link rel="stylesheet" href="css/over-ons.css">
 </head>
@@ -16,7 +16,7 @@
 
 <header>
     <div class="container">
-        <div class="row align-items-center" style="height: 250px;">
+        <div class="row align-items-center" style="height: 25vh;">
             <div class="col text-center">
                 <h1>[TITLE]</h1>
                 <p>[TEXT]</p>
@@ -26,14 +26,10 @@
 </header>
 
 <main>
-    <div class="container" style="max-width: 750px">
-        <div class="row">
+    <div class="container" style="max-width: 50vw">
+        <div class="row align-items-center" style="height: 50vh">
             <div class="col text-center">
                 <h2>Over ons</h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col text-center">
                 <p>
                     Zijn een allround bedrijf die altijd klaar staat voor de kant. Opgericht met het oogpunt om
                     projecten op te leveren die meerwaarde bieden voor de klant. Wil je als organisatie opvallen en jouw
@@ -42,10 +38,6 @@
                     website of webshop moet goed opgebouwd zijn om ook doorontwikkeld te worden. Projecten die wij
                     opleveren zijn schaalbaar, maatwerk en voor de lange termijn geschikt.
                 </p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col text-center">
                 <a href="contact.php">
                     <button class="btn btn-dark">Contacteer ons</button>
                 </a>

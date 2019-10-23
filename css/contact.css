@@ -13,11 +13,6 @@ header p {
     font: 22pt Arial;
 }
 
-main {
-    background: lightgrey;
-    margin: 25px 0px;
-    padding: 25px;
-}
 main h2 {
     font: 28pt Arial;
     font-weight: bold;
@@ -25,4 +20,3 @@ main h2 {
 main p {
     font: 18pt Arial;
 }
-

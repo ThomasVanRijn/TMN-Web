@@ -16,7 +16,7 @@
 
 <header>
     <div class="container">
-        <div class="row align-items-center" style="height: 250px;">
+        <div class="row align-items-center" style="height: 25vh;">
             <div class="col text-center">
                 <h1>[TITLE]</h1>
                 <p>[TEXT]</p>

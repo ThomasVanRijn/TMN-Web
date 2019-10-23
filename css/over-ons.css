@@ -13,25 +13,13 @@ header p {
     font: 22pt Arial;
 }
 
-main {
-    background: lightgrey;
-    margin: 33px 0px;
-    padding: 48px;
-}
 main h2 {
-    font: 28pt Arial;
+    font: 2vw Arial;
     font-weight: bold;
 }
 main p {
-    font: 16pt Arial;
+    font: 1.1vw Arial;
 }
 main button {
     font: 18pt Arial !important;
-}
-
-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
 }

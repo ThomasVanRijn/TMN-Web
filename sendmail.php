@@ -10,5 +10,5 @@ if (isset($_GET['verzenden'])) {
     $txt = "Je hebt een mail ontvangen van " . $naam . ".\n\n" . $bericht;
 
     mail($mailTo, $onderwerp, $bericht, $headers);
-    header("Location: pages/contact/contact.php?mailsend");
+    header("Location: contact.php?mailsend");
 }
