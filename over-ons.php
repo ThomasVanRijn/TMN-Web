@@ -26,7 +26,7 @@
 </header>
 
 <main>
-    <div class="container" style="max-width: 50vw">
+    <div class="container" style="max-width: 1000px">
         <div class="row align-items-center" style="height: 50vh">
             <div class="col text-center">
                 <h2>Over ons</h2>

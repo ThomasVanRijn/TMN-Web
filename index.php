@@ -26,7 +26,6 @@
 </header>
 
 <main class="container-fluid" style="max-width: 1300px;">
-
     <div class="row align-items-center">
         <div class="col text-center">
             <h2>Wat hebben wij allemaal te bieden?</h2>

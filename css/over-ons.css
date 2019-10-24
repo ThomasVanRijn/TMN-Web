@@ -14,12 +14,19 @@ header p {
 }
 
 main h2 {
-    font: 2vw Arial;
+    font: 2rem Arial;
     font-weight: bold;
 }
 main p {
-    font: 1.1vw Arial;
+    font: 1.5rem Arial;
 }
 main button {
     font: 18pt Arial !important;
+}
+
+@media screen and (max-width: 400px) {
+    main .row {
+        height: auto !important;
+        margin: 25px 0px;
+    }
 }
