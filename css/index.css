@@ -5,23 +5,21 @@ header {
 }
 header h1 {
     color: white;
-    font: 28pt Arial;
+    font: 2.5rem Arial;
     font-weight: bold;
 }
 header p {
     color: white;
-    font: 22pt Arial;
+    font: 2rem Arial;
 }
 
 main .row {
-    margin: 33px;
+    margin-top: 33px;
 }
 main h2 {
     font: 32pt Arial;
     font-weight: bold;
     margin: 33px;
-}
-main .image {
 }
 main .text {
     padding: 50px;
@@ -32,4 +30,21 @@ main .text h3 {
 }
 main .text p {
     font: 16pt Arial;
+}
+
+@media screen and (max-width: 800px) {
+    main h2 {
+        font: 2.5rem Arial;
+        font-weight: bold;
+    }
+    main .text {
+        padding: 50px;
+    }
+    main .text h3 {
+        font: 24pt Arial;
+        font-weight: bold;
+    }
+    main .text p {
+        font: 16pt Arial;
+    }
 }

@@ -11,6 +11,9 @@
 </head>
 <body>
 
+<!--loading screen-->
+<?php require("global_components/loadingScreen.html"); ?>
+
 <!--Navigation Bar-->
 <?php require("global_components/navbar.html"); ?>
 

@@ -7,9 +7,13 @@
 
     <!--bootstrap-->
     <?php require("global_components/bootstrap.html"); ?>
+
     <link rel="stylesheet" href="css/websites.css">
 </head>
 <body>
+
+<!--loading screen-->
+<?php require("global_components/loadingScreen.html"); ?>
 
 <!--navigation bar-->
 <?php require("global_components/navbar.html"); ?>
