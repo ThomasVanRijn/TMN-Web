@@ -5,12 +5,12 @@ header {
 }
 header h1 {
     color: white;
-    font: 28pt Arial;
+    font: 2.5rem Arial;
     font-weight: bold;
 }
 header p {
     color: white;
-    font: 22pt Arial;
+    font: 2rem Arial;
 }
 
 main h2 {
@@ -25,5 +25,19 @@ main h3{
     font-weight: bold;
 }
 main p {
-    font: 16pt Arial;
+    font: 1.5rem Arial;
+}
+
+@media screen and (max-width: 800px) {
+    main h2 {
+        font: 2rem Arial;
+        font-weight: bold;
+    }
+    main h3{
+        font: 2rem Arial;
+        font-weight: bold;
+    }
+    main p {
+        font: 1.3rem Arial;
+    }
 }

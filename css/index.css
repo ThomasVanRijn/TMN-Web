@@ -14,12 +14,11 @@ header p {
 }
 
 main .row {
-    margin-top: 33px;
+    margin: 33px 0px;
 }
 main h2 {
-    font: 32pt Arial;
+    font: 2.5rem Arial;
     font-weight: bold;
-    margin: 33px;
 }
 main .text {
     padding: 50px;
@@ -32,13 +31,14 @@ main .text p {
     font: 16pt Arial;
 }
 
+/*Tablet*/
 @media screen and (max-width: 800px) {
     main h2 {
         font: 2.5rem Arial;
         font-weight: bold;
     }
     main .text {
-        padding: 50px;
+        padding: 10px;
     }
     main .text h3 {
         font: 24pt Arial;
@@ -47,4 +47,36 @@ main .text p {
     main .text p {
         font: 16pt Arial;
     }
+}
+
+/*Mobile*/
+@media screen and (max-width: 400px) {
+    main h2 {
+        margin: 25px;
+        font: 1.7rem Arial;
+        font-weight: bold;
+    }
+    main .text {
+        padding: 25px;
+    }
+    main .text h3 {
+        font: 1.5rem Arial;
+        font-weight: bold;
+    }
+    main .text p {
+        font: 1.2rem Arial;
+    }
+
+    main .blok2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+        "image"
+        "text";
+    }
+
+    .blok2 .text {display: grid; grid-area: text}
+    .blok2 .image {display: grid; grid-area: image}
+
 }
