@@ -30,11 +30,13 @@
 
 <main>
     <div class="container">
-        <div class="row align-items-center" style="height: 50vh;">
+        <div class="row align-items-center" style="height: auto">
             <div class="col text-center">
                 <h2>Contacteer ons!</h2>
                 <p>
-                    bel ons op het volgende nummer: 06-42002170 <br>
+                    bel ons op het volgende nummer: <br> 06-42002170
+                    <br>
+                    <br>
                     of stuur een mail via het onderstaande formulier.
                 </p>
                 <div class="col">

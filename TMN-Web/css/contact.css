@@ -13,10 +13,27 @@ header p {
     font: 22pt Arial;
 }
 
+main .row {
+    padding: 25px;
+}
 main h2 {
     font: 28pt Arial;
     font-weight: bold;
 }
 main p {
     font: 18pt Arial;
+}
+
+/*Mobile*/
+@media screen and (max-width: 400px) {
+    main .row {
+        height: auto !important;
+    }
+    main h2 {
+        font: 1.7rem Arial;
+        font-weight: bold;
+    }
+    main p {
+        font: 1.2rem Arial;
+    }
 }

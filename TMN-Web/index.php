@@ -5,6 +5,7 @@
     <link rel="icon" href="img/logo.png" type="image/gif" sizes="16x16">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Description" content="Dit is TMN-web. Gemaakt door: Thomas, Mathijs en Nick">
 
     <!--bootstrap-->
     <?php require("global_components/bootstrap.html"); ?>
@@ -40,7 +41,7 @@
 <!--web development-->
     <div class="row align-items-center blok1">
         <div class="col-md-7 image">
-            <img class="img-fluid" src="img2/web_development.jpg" alt="Web development">
+            <img class="img-fluid" src="img/web_development.jpg" alt="Web development">
         </div>
         <div class="col-md-5 text">
             <h3>Web development</h3>
@@ -67,14 +68,14 @@
             </a>
         </div>
         <div class="col-md-7 image">
-            <img class="img-fluid" src="img2/web_design.jpg" alt="Web development">
+            <img class="img-fluid" src="img/web_design.jpg" alt="Web development">
         </div>
     </div>
 
 <!--logo design-->
     <div class="row align-items-center blok3">
         <div class="col-md-7 image">
-            <img class="img-fluid" src="img2/logo_design.jpg" alt="Web development">
+            <img class="img-fluid" src="img/logo_design.jpg" alt="Web development">
         </div>
         <div class="col-md-5 text">
             <h3>Logo design</h3>

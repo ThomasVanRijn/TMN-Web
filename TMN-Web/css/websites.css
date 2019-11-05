@@ -28,16 +28,21 @@ main p {
     font: 1.5rem Arial;
 }
 
+/*Tablet*/
 @media screen and (max-width: 800px) {
+    main .row {
+        margin: 0px;
+    }
     main h2 {
         font: 2rem Arial;
         font-weight: bold;
+        margin: 33px;
     }
     main h3{
-        font: 2rem Arial;
+        font: 1.5rem Arial;
         font-weight: bold;
     }
     main p {
-        font: 1.3rem Arial;
+        font: 1.2rem Arial;
     }
 }

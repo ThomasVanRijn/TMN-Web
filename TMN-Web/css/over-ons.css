@@ -24,9 +24,20 @@ main button {
     font: 18pt Arial !important;
 }
 
+/*Mobile*/
 @media screen and (max-width: 400px) {
     main .row {
         height: auto !important;
         margin: 25px 0px;
+    }
+    main h2 {
+        font: 1.7rem Arial;
+        font-weight: bold;
+    }
+    main p {
+        font: 1.2rem Arial;
+    }
+    main button {
+        font: 1.2rem Arial !important;
     }
 }

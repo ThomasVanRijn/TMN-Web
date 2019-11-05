@@ -42,7 +42,7 @@
                 <h3>Web development</h3>
                 <p>
                     Een website, webshop of webapplicatie voor de lange termijn? Dan heb je een goede basis nodig. Deze
-                    basis leg je door middel van goede code.Onze developers weten exact hoe iets opgebouwd moet worden
+                    basis leg je door middel van goede code. Onze developers weten exact hoe iets opgebouwd moet worden
                     en zorgen ervoor dat aanpassingen en optimalisaties ten alle tijden mogelijk is, wij programmeren
                     alles netjes met code hierin maken wij geavanceerde websites, webshops en applicaties. Op verzoek
                     zouden we ook met Wordpress. Wij ontwikkelen alles handmatig maar pakken onze projecten slim aan.
